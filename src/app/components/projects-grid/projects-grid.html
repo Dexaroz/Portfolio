@@ -1,0 +1,11 @@
+<div class="projects-grid">
+  <app-projects-card
+    *ngFor="let project of projects"
+    [projectTitle]="project.title"
+    [projectImage]="project.image"
+    [projectDescription]="project.description"
+    [projectTechnologies]="project.technologies"
+    [projectCodeUrl]="project.codeUrl"
+    [projectLiveUrl]="project.liveUrl"
+  ></app-projects-card>
+</div>

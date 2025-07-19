@@ -1,0 +1,41 @@
+.scroll-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+  scroll-behavior: smooth;
+}
+
+.snap-section {
+  height: 100vh;
+  scroll-snap-align: start;
+  padding-top: 12rem;
+  box-sizing: border-box;
+}
+
+.snap-section#projects {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  margin-top: 20vh;
+}
+
+.snap-section#education {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  margin-top: 20vh;
+}
+
+.snap-section#skills {
+  max-height: 10vh;
+  scroll-snap-align: start;
+  margin-top: 20vh;
+}
+
+.snap-section#contact {
+  max-height: 10vh;
+  scroll-snap-align: start;
+  margin-top: 35vh;
+  padding-bottom: 40rem;
+}

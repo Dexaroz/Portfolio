@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Portfolio Website",
+    "image": "/images/portfolio.png",
+    "description": "A modern and responsive personal portfolio built with Angular, designed to showcase my experience as a Full Stack Developer. It features interactive 3D elements, smooth navigation between sections, elegant UI animations, and a user-focused design.",
+    "technologies": ["HTML", "CSS", "JavaScript","Angular", "SCSS", "Threejs"],
+    "codeUrl": "https://github.com/Dexaroz/Portfolio-Website",
+    "liveUrl": "https://your-site.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "image": "/images/portfolio.png",
+    "description": "A modern and responsive personal portfolio built with Angular, designed to showcase my experience as a Full Stack Developer. It features interactive 3D elements, smooth navigation between sections, elegant UI animations, and a user-focused design.",
+    "technologies": ["HTML", "CSS", "JavaScript","Angular", "SCSS", "Threejs"],
+    "codeUrl": "https://github.com/...",
+    "liveUrl": "https://your-site.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "image": "/images/portfolio.png",
+    "description": "A modern and responsive personal portfolio built with Angular, designed to showcase my experience as a Full Stack Developer. It features interactive 3D elements, smooth navigation between sections, elegant UI animations, and a user-focused design.",
+    "technologies": ["HTML", "CSS", "JavaScript","Angular", "SCSS", "Threejs"],
+    "codeUrl": "https://github.com/...",
+    "liveUrl": "https://your-site.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "image": "/images/portfolio.png",
+    "description": "A modern and responsive personal portfolio built with Angular, designed to showcase my experience as a Full Stack Developer. It features interactive 3D elements, smooth navigation between sections, elegant UI animations, and a user-focused design.",
+    "technologies": ["HTML", "CSS", "JavaScript","Angular", "SCSS", "Threejs"],
+    "codeUrl": "https://github.com/...",
+    "liveUrl": "https://your-site.com"
+  }
+]

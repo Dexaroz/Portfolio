@@ -1,0 +1,42 @@
+$color-text: #EAEAEA;
+$color-accent: #007bff;
+$font: 'Roboto', sans-serif;
+$font-size-base: 1.1rem;
+$font-weight-bold: 250;
+
+.about-container {
+  max-width: 38vw;
+  font-family: $font;
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+
+  p {
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+
+  .social-links {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+
+    a {
+      i {
+        font-size: 1.3rem;
+        color: $color-accent;
+        border: 2.3px solid $color-accent;
+        border-radius: 50%;
+        padding: 0.6rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: $color-accent;
+          color: $color-text;
+          transform: scale(1.3);
+        }
+      }
+    }
+  }
+
+}

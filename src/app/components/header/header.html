@@ -1,0 +1,59 @@
+<nav class="main-nav"
+     aria-label="Main Navigation"
+     [ngClass]="{ 'header-hidden' : !isVisible, 'header-visible': isVisible}">
+  <div class="nav-content">
+    <div class="logo-container">
+      <a (click)="scrollTo('home')">
+        <div class="logo-container-link">
+          <img src="/Profile2.jpg">
+          <p>Eduardo Marrero</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="nav-menu-container">
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a (click)="scrollTo('home')"
+             class="nav-menu-link"
+             [ngClass]="{ 'activeSection': activeSection === 'home' }">
+            <p>Home</p>
+          </a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a (click)="scrollTo('projects')"
+             class="nav-menu-link"
+             [ngClass]="{ 'activeSection': activeSection === 'projects' }">
+            <p>Projects</p>
+          </a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a (click)="scrollTo('skills')"
+             class="nav-menu-link"
+             [ngClass]="{ 'activeSection': activeSection === 'skills' }">
+            <p>Skills</p>
+          </a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a (click)="scrollTo('education')"
+             class="nav-menu-link"
+             [ngClass]="{ 'activeSection': activeSection === 'education' }">
+            <p>Education</p>
+          </a>
+        </li>
+
+        <li class="nav-menu-item">
+          <a (click)="scrollTo('contact')"
+             class="nav-menu-link"
+             [ngClass]="{ 'activeSection': activeSection === 'contact' }">
+            <p>Contact</p>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>

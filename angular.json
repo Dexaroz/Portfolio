@@ -5,7 +5,11 @@
   "projects": {
     "portfolioFullStack": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -25,8 +29,12 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ]
+              "src/app/app.scss",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+            ],
+            "stylePreprocessorOptions": {
+              "includePaths": []
+            }
           },
           "configurations": {
             "production": {
@@ -88,5 +96,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "d8e1dd2a-4ce0-464f-9f8b-5bb38e59f040"
   }
 }

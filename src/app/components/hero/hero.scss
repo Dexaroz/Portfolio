@@ -1,0 +1,67 @@
+$color-text: #EAEAEA;
+$color-accent: #007bff;
+
+$font-size-title: 3.5rem;
+$font-size-job: 2.5rem;
+$font-size-body: 1.7rem;
+$font-weight-title: 700;
+$font-weight-job: 500;
+
+$button-radius: 25px;
+$button-padding: 0.75rem 2rem;
+
+$border-radius-circle: 50%;
+
+$image-width: 9.25rem;
+$image-height: 9.25rem;
+
+$font: 'Roboto', sans-serif;
+
+.hero-content-container {
+  max-width: 38vw;
+  font-family: $font;
+  gap: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+
+  img {
+    width: $image-width;
+    height: $image-height;
+    border-radius: $border-radius-circle;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: $font-size-title;
+    margin: 0.5rem 0;
+    font-weight: $font-weight-title;
+  }
+
+  h2 {
+    font-size: $font-size-job;
+    font-weight: $font-weight-job;
+    margin: 0.5rem 0;
+  }
+
+  .hero-description-container {
+
+  }
+
+  #hero-job {
+    color: $color-accent;
+    border-right: 2px solid $color-accent;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink-caret 0.75s step-end infinite;
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: $color-accent;
+    }
+  }
+}
