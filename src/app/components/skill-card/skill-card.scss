@@ -1,0 +1,57 @@
+.skill-card {
+  width: 5vw;
+  height: auto;
+  background-color: #252536;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  i {
+    font-size: 2rem;
+    color: #007bff;
+    transition: transform 0.2s ease, color 0.2s ease;
+    cursor: default;
+
+    &:hover {
+      transform: scale(1.2);
+      color: #ffffff;
+    }
+  }
+
+  .custom-icon {
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+
+    filter: brightness(0) saturate(100%) invert(33%) sepia(98%) saturate(749%) hue-rotate(193deg) brightness(93%) contrast(91%);
+    transition: transform 0.2s ease, filter 0.2s ease;
+
+    &:hover {
+      transform: scale(1.2);
+      filter: brightness(0) invert(1);
+    }
+  }
+}

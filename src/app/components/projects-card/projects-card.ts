@@ -9,6 +9,7 @@ import {NgForOf} from '@angular/common';
   templateUrl: './projects-card.html',
   styleUrl: './projects-card.scss'
 })
+
 export class ProjectsCard {
   @Input() projectImage: string = '';
   @Input() projectTitle: string = '';

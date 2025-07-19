@@ -1,0 +1,19 @@
+<div class="skill-card">
+  <h3>{{ skillsTitle }}</h3>
+
+  <div class="icon-wrapper">
+    <img
+      *ngIf="getSkillIcon[skillsTitle]; else faIcon"
+      [src]="getSkillIcon[skillsTitle]"
+      [alt]="skillsTitle"
+      class="custom-icon"
+    />
+
+    <ng-template #faIcon>
+      <i
+        [class]="techIcons[skillsTitle] || 'fas fa-tools'"
+        [title]="skillsTitle"
+      ></i>
+    </ng-template>
+  </div>
+</div>

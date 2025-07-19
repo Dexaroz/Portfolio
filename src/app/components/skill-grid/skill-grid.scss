@@ -1,0 +1,17 @@
+
+$color-text: #EAEAEA;
+$color-accent: #007bff;
+$font: 'Roboto', sans-serif;
+$font-size-base: 1.1rem;
+$font-weight-bold: 250;
+
+.skills-grid {
+  font-family: $font;
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6vw, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
