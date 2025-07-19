@@ -8,19 +8,35 @@
     "liveUrl": "https://your-site.com"
   },
   {
-    "title": "Portfolio Website",
-    "image": "/images/portfolio.png",
-    "description": "A modern and responsive personal portfolio built with Angular, designed to showcase my experience as a Full Stack Developer. It features interactive 3D elements, smooth navigation between sections, elegant UI animations, and a user-focused design.",
-    "technologies": ["HTML", "CSS", "JavaScript","Angular", "SCSS", "Threejs"],
-    "codeUrl": "https://github.com/...",
+    "title": "Money Calculator",
+    "image": "/images/money-calculator.png",
+    "description": "Money Calculator is a modular currency converter built in Java using the MVC pattern. It allows users to convert currencies, manage transactions, and display results through a Swing-based graphical interface. Key design patterns include MVC, Command, Observer, and Singleton.",
+    "technologies": ["Java"],
+    "codeUrl": "https://github.com/Dexaroz/money-calculator",
     "liveUrl": "https://your-site.com"
   },
   {
-    "title": "Portfolio Website",
-    "image": "/images/portfolio.png",
-    "description": "A modern and responsive personal portfolio built with Angular, designed to showcase my experience as a Full Stack Developer. It features interactive 3D elements, smooth navigation between sections, elegant UI animations, and a user-focused design.",
-    "technologies": ["HTML", "CSS", "JavaScript","Angular", "SCSS", "Threejs"],
-    "codeUrl": "https://github.com/...",
+    "title": "Image Viewer",
+    "image": "/images/image-viewer.png",
+    "description": "Image Viewer is a Java Swing application for browsing and viewing images. It uses MVC and MVP patterns for modularity, allowing users to navigate through images, change folders, and view content in a simple graphical interface.",
+    "technologies": ["Java"],
+    "codeUrl": "https://github.com/Dexaroz/image-viewer",
+    "liveUrl": "https://your-site.com"
+  },
+  {
+    "title": "Minesweeper",
+    "image": "/images/minesweeper.png",
+    "description": "MineSweeper is a modular Java Swing implementation of the classic Minesweeper game. Built with MVP architecture and design patterns like Command, Observer, and Singleton, it allows users to play with different difficulties and provides real-time board interaction through a clean UI.",
+    "technologies": ["Java"],
+    "codeUrl": "https://github.com/Dexaroz/mine-sweeper",
+    "liveUrl": "https://your-site.com"
+  },
+  {
+    "title": "School CRUD",
+    "image": "/images/school-crud.png",
+    "description": "A simple example of CRUD.",
+    "technologies": ["HTML", "CSS", "Angular", "TypeScript"],
+    "codeUrl": "https://github.com/Dexaroz/mine-sweeper",
     "liveUrl": "https://your-site.com"
   }
 ]
