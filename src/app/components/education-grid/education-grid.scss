@@ -1,0 +1,20 @@
+
+$color-text: #EAEAEA;
+$font: 'Roboto', sans-serif;
+$font-size-base: 1.1rem;
+$font-weight-bold: 250;
+
+.education-grid {
+  font-family: $font;
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

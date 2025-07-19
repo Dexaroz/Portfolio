@@ -1,0 +1,48 @@
+
+$font: 'Roboto', sans-serif;
+
+.three-canvas-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $font;
+
+  .three-canvas {
+    width: 38vw;
+    height: 41vh;
+    display: block;
+  }
+
+  .model-hint {
+    position: absolute;
+    padding: 0.5rem;
+    bottom: 4rem;
+    left: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #252536;
+    color: white;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    backdrop-filter: blur(8px);
+    z-index: 10;
+    animation: pulse 2s infinite;
+
+    i {
+      font-size: 1.1rem;
+      animation: pulse 2s infinite;
+      color: #007bff;
+    }
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+}

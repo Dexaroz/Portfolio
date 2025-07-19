@@ -1,1 +1,27 @@
-<p>education-card works!</p>
+<div
+  class="education-card"
+  [ngClass]="{ 'certification': data.type === 'certification' }"
+  (click)="toggleCollapse()"
+>
+  <img
+    [src]="data.logoUrl"
+    [alt]="data.university + ' logo'"
+    class="logo"
+  />
+
+  <div class="info">
+    <div class="header">
+      <h3>{{ data.university }}</h3>
+      <span class="years">{{ data.startYear }} - {{ data.endYear }}</span>
+    </div>
+    <p class="degree">{{ data.degree }}</p>
+    <p class="description" [class.collapsed]="isCollapsed">
+      {{ data.description }}
+    </p>
+  </div>
+
+  <i
+    class="fas fa-chevron-down toggle-icon"
+    [class.rotated]="!isCollapsed"
+  ></i>
+</div>

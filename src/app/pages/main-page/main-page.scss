@@ -16,7 +16,7 @@
 
 .snap-section#home {
   width: 100%;
-  margin-top: 10vh;
+  margin-top: 12vh;
   display: flex;
   justify-content: center;
 }
@@ -28,6 +28,12 @@
 }
 
 .snap-section#skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.snap-section#education {
   width: 100%;
   display: flex;
   justify-content: center;

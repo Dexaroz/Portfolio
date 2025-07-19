@@ -3,6 +3,7 @@ import {Header} from '../../components/header/header';
 import {Home} from '../home/home';
 import {Projects} from '../projects/projects';
 import {Skills} from '../skills/skills';
+import {Education} from '../education/education';
 
 @Component({
   selector: 'app-main-page',
@@ -10,7 +11,8 @@ import {Skills} from '../skills/skills';
     Header,
     Home,
     Projects,
-    Skills
+    Skills,
+    Education
   ],
   templateUrl: './main-page.html',
   styleUrl: './main-page.scss'

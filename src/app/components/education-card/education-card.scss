@@ -1,0 +1,108 @@
+$color-bg-card: #252536;
+$color-bg-card-certification: #434355;
+$color-text-primary: #eaeaea;
+$color-text-secondary: #acacac;
+
+$font-family-base: 'Roboto', sans-serif;
+$font-size-heading: 1.2rem;
+$font-size-subheading: 0.95rem;
+$font-size-years: 0.9rem;
+$font-weight-bold: 700;
+$font-weight-medium: 600;
+
+$padding-card: 1.5rem;
+$gap-card: 1rem;
+$border-radius-card: 12px;
+$border-radius-logo: 8px;
+$logo-size: 50px;
+
+.toggle-icon {
+  right: 1.5rem;
+  top: 1.5rem;
+  font-size: 1.1rem;
+  color: $color-text-secondary;
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+
+  &.rotated {
+    transform: rotate(180deg);
+  }
+}
+
+.education-card {
+  width: 38vw;
+  display: flex;
+  gap: $gap-card;
+  color: $color-text-primary;
+  background-color: $color-bg-card;
+  padding: $padding-card;
+  border-radius: $border-radius-card;
+  align-items: flex-start;
+  font-family: $font-family-base;
+  margin-bottom: 1rem;
+  transition: 0.2s;
+  position: relative;
+  cursor: pointer;
+
+  .logo {
+    width: $logo-size;
+    height: $logo-size;
+    object-fit: contain;
+    border-radius: $border-radius-logo;
+    filter: brightness(0) invert(1);
+  }
+
+  .info {
+    flex: 1;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h3 {
+        font-size: $font-size-heading;
+        font-weight: $font-weight-bold;
+        margin: 0;
+      }
+
+      .years {
+        font-size: $font-size-years;
+        font-weight: $font-weight-medium;
+        color: $color-text-secondary;
+      }
+    }
+
+    .degree {
+      font-weight: $font-weight-medium;
+      margin-top: 0.2rem;
+    }
+
+    .description {
+      margin-top: 0.5rem;
+      font-size: $font-size-subheading;
+      color: $color-text-primary;
+      max-height: 300px;
+      overflow: hidden;
+      transition: max-height ease;
+
+      &.collapsed {
+        max-height: 0;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+
+    .toggle-icon {
+      opacity: 1;
+    }
+  }
+}
+
+.certification {
+  background-color: $color-bg-card-certification;
+}

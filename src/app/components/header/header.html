@@ -22,6 +22,14 @@
         </li>
 
         <li class="nav-menu-item">
+          <a (click)="scrollTo('education')"
+             class="nav-menu-link"
+             [ngClass]="{ 'activeSection': activeSection === 'education' }">
+            <p>Education</p>
+          </a>
+        </li>
+
+        <li class="nav-menu-item">
           <a (click)="scrollTo('projects')"
              class="nav-menu-link"
              [ngClass]="{ 'activeSection': activeSection === 'projects' }">
@@ -34,22 +42,6 @@
              class="nav-menu-link"
              [ngClass]="{ 'activeSection': activeSection === 'skills' }">
             <p>Skills</p>
-          </a>
-        </li>
-
-        <li class="nav-menu-item">
-          <a (click)="scrollTo('education')"
-             class="nav-menu-link"
-             [ngClass]="{ 'activeSection': activeSection === 'education' }">
-            <p>Education</p>
-          </a>
-        </li>
-
-        <li class="nav-menu-item">
-          <a (click)="scrollTo('contact')"
-             class="nav-menu-link"
-             [ngClass]="{ 'activeSection': activeSection === 'contact' }">
-            <p>Contact</p>
           </a>
         </li>
 

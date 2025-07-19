@@ -4,17 +4,24 @@ $font-weight-title: 700;
 $font-size-description: 1.3rem;
 $font-weight-description: 200;
 
-.skills-content {
-  max-width: 38vw;
+.education-content {
+  width: 38vw;
   font-size: $font-size-title;
   font-weight: $font-weight-title;
   font-family: $font;
   padding-bottom: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  box-shadow: 0 1.5px 0 rgba(0, 0, 0, 0.1);
 
   .description {
     font-size: $font-size-description;
     font-weight: $font-weight-description;
     color: darkgrey;
     margin-bottom: 2.5rem;
+  }
+
+  .education-cards-container {
+    gap: 6rem;
   }
 }

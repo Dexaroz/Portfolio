@@ -1,1 +1,6 @@
-<p>education-grid works!</p>
+<div class="education-grid">
+  <app-education-card
+    *ngFor="let item of education"
+    [data]="item">
+  </app-education-card>
+</div>

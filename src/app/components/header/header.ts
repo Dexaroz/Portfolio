@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import {NgClass} from '@angular/common';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-header',
-  imports: [
-    NgClass
-  ],
+  standalone: true,
+  imports: [NgClass],
   templateUrl: './header.html',
   styleUrl: './header.scss'
 })
@@ -33,7 +32,8 @@ export class Header {
       },
       {
         root: null,
-        threshold: 0.5
+        threshold: 0.5,
+        rootMargin: '-80px 0px 0px 0px'
       }
     );
 
@@ -56,13 +56,21 @@ export class Header {
       this.isVisible = true;
     }
 
-    this.lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+    this.lastScrollTop = Math.max(currentScroll, 0);
   };
 
   scrollTo(sectionId: string): void {
     const el = document.getElementById(sectionId);
+    const headerOffset = 120;
+
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
+      const elementPosition = el.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
     }
   }
 
