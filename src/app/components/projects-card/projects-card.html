@@ -3,11 +3,9 @@
     <img [src]="projectImage" [alt]="projectTitle + ' screenshot'" />
   </div>
   <h3>{{ projectTitle }}</h3>
-  <p>Description</p>
   <div class="description-container">
     <p>{{ projectDescription }}</p>
   </div>
-  <p>Technologies</p>
   <div class="tech-container">
     <ng-container *ngFor="let tech of projectTechnologies">
       <i [class]="techIcons[tech]" [title]="tech"></i>

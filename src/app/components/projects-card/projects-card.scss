@@ -14,7 +14,7 @@ $menu-font-weight: 600;
 
 .project-card {
   background-color: #252536;
-  max-width: 20vw;
+  max-width: 10vw;
   border: 1px solid $menu-font-color-hover;;
   border-radius: 16px;
   padding: 1.5rem;
@@ -31,7 +31,7 @@ $menu-font-weight: 600;
 
   .image-wrapper {
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,6 @@ $menu-font-weight: 600;
   }
 
   .description-container {
-    width: 80%;
     display: grid;
     gap: 0.5rem;
     justify-items: center;

@@ -1,0 +1,18 @@
+$font: 'Roboto', sans-serif;
+$font-size-title: 1.7rem;
+$font-weight-title: 700;
+$font-size-description: 1.3rem;
+$font-weight-description: 200;
+
+.projects-content {
+  max-width: 38vw;
+  font-size: $font-size-title;
+  font-weight: $font-weight-title;
+  font-family: $font;
+
+  .description {
+    font-size: $font-size-description;
+    font-weight: $font-weight-description;
+    color: darkgrey;
+  }
+}

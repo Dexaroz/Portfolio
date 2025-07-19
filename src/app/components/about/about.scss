@@ -5,10 +5,12 @@ $font-size-base: 1.1rem;
 $font-weight-bold: 250;
 
 .about-container {
-  max-width: 38vw;
   font-family: $font;
   font-size: $font-size-base;
   font-weight: $font-weight-bold;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
   p {
     margin-top: 1rem;
