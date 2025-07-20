@@ -5,7 +5,7 @@
     "startYear": "2017",
     "endYear": "2019",
     "description": "Selected for the prestigious Estalmat program, an initiative aimed at detecting and nurturing early mathematical talent among young students in Spain. Participated in advanced mathematical workshops and collaborative problem-solving sessions to develop logical thinking, abstraction skills, and mathematical creativity beyond the standard curriculum.",
-    "logoUrl": "/icons/estalmat.svg",
+    "logoUrl": "./icons/estalmat.svg",
     "type": "certification"
   },
   {
@@ -14,7 +14,7 @@
     "startYear": "2022",
     "endYear": "Present",
     "description": "Comprehensive education in computer science fundamentals, including programming, algorithms, data structures, computer architecture, databases, software engineering, networks, and artificial intelligence. Focused on problem-solving, teamwork, and the application of technology in real-world scenarios.",
-    "logoUrl": "/icons/ulpgc.svg",
+    "logoUrl": "./icons/ulpgc.svg",
     "type": "university"
   },
   {
@@ -23,7 +23,7 @@
     "startYear": "2023",
     "endYear": "2023",
     "description": "Start at the beginning by learning HTML basics — an important foundation for building and editing web pages.",
-    "logoUrl": "/icons/codecademy.svg",
+    "logoUrl": "./icons/codecademy.svg",
     "type": "certification"
   },
   {
@@ -32,7 +32,7 @@
     "startYear": "2023",
     "endYear": "2023",
     "description": "Start at the beginning by learning CSS basics — an important foundation for styling and editing web pages.",
-    "logoUrl": "/icons/codecademy.svg",
+    "logoUrl": "./icons/codecademy.svg",
     "type": "certification"
   },
   {
@@ -41,7 +41,7 @@
     "startYear": "2023",
     "endYear": "2023",
     "description": "Explore HTML & CSS fundamentals building a website.",
-    "logoUrl": "/icons/codecademy.svg",
+    "logoUrl": "./icons/codecademy.svg",
     "type": "certification"
   },
   {
@@ -50,7 +50,7 @@
     "startYear": "2024",
     "endYear": "2024",
     "description": "Learn building projects using HTML, CSS, Django and Javascript.",
-    "logoUrl": "/icons/harvard.svg",
+    "logoUrl": "./icons/harvard.svg",
     "type": "certification"
   }
 ]
